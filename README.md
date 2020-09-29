@@ -35,7 +35,7 @@ Na sheet **Meta**, coloque as colunas **Title**, **Read more** e **Footer** como
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheets01.png">
 </p>
 
-Na sheet **Items**, coloque as colunas **Title**, **Description**, **Tags** e *Screenshot** com seus respectivos dados.
+Na sheet **Items**, coloque as colunas **Title**, **Description**, **Tags** e **Screenshot** com seus respectivos dados.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheet02.png">
 </p>
