@@ -1,0 +1,33 @@
+<div id="app">
+  <header class="bg-indigo-800 p-6 shadow-lg">
+    <div class="container mx-auto">
+      <nav class="flex items-center justify-between flex-wrap">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <span class="font-semibold text-xl tracking-tight">{{ meta.title }}</span>
+        </div>
+        <a :href="meta.readMore" class="text-white hover:text-indigo-300 py-2 rounded-lg" target="_blank">Github&#8594;</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container mx-auto">
+      <div class="flex flex-wrap -mx-3 py-8">
+        <div class="w-1/1 md:w-1/2 lg:w-1/3 px-3 pb-6" v-for="item in items">
+          <div class="rounded overflow-hidden shadow-lg">
+            <img class="w-full object-cover h-64" :src="item.screenshot" :alt="item.title">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">{{ item.title }}</div>
+              <p class="text-gray-700 text-base">{{ item.description }}</p>
+            </div>
+            <div class="px-6 py-4">
+              <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2" v-for="tag in getTags(item.tags)">#{{ tag }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container mx-auto pb-8 text-gray-500">{{ meta.footer }}</div>
+  </footer>
+</div>
