@@ -19,7 +19,7 @@ Tabela de conteúdos
    * [Autora](#autora)
 <!--te-->
 ## **Tecnologia**
-Este projeto utiliza as seguintes tecnologias:
+Este projeto utiliza as seguintes tecnologias:<br>
 -> <a href="https://www.google.com/sheets">Google Sheets</a><br>
 -> <a href="https://sheety.co">Sheety</a><br>
 -> <a href="https://codepen.io">CodePen</a><br>
@@ -52,7 +52,7 @@ E clique no botão **Create Project**.
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheety01.png">
 </p>
 
-### **CodePen***
+### **CodePen**
 Crie um pen e nomeie do jeito que preferir. Adicione o framework <a href="https://tailwindcss.com">Tailwind CSS</a> conforme na configuração CSS do CodePen, ele é usado para criar layouts rápidos.
 ```bash
 https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css
@@ -73,6 +73,7 @@ Agora copie e cole o <a href="https://github.com/3salles/foxfolio/blob/master/in
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/codepen02.png">
 </p>
+
 No código JS, coloque o link da sheet **Meta** no código na seguinte parte:
 
 ```js
@@ -82,6 +83,7 @@ O link você encontra em:
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheety02.png">
 </p>
+
 No código JS, coloque o link da sheet **Items** no código na seguinte parte:
 
 ```js
