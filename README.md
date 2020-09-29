@@ -4,7 +4,7 @@
     ·
     <a href="README.md">Português</a>
  </p>
- 
+
 # foxfolio
 É um portifólio de raposas feito no Google Sheets. Veja a demo do portifolio <a href="https://codepen.io/3salles/pen/BaKeNzE">aqui</a>.
 
@@ -20,19 +20,21 @@ Tabela de conteúdos
 <!--te-->
 ## **Tecnologia**
 Este projeto utiliza as seguintes tecnologias:
--> <a href="https://www.google.com/sheets">Google Sheets</a>
--> <a href="https://sheety.co">Sheety</a>
--> <a href="https://codepen.io">CodePen</a>
+-> <a href="https://www.google.com/sheets">Google Sheets</a><br>
+-> <a href="https://sheety.co">Sheety</a><br>
+-> <a href="https://codepen.io">CodePen</a><br>
 ## **Configurações**
 ### **Google Sheets**
 Crie um novo documento no Google Sheets e adicione duas sheets, uma chamada **Meta** e outra **Items**.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheets00.png">
 </p>
+
 Na sheet **Meta**, coloque as colunas **Title**, **Read more** e **Footer** como seus respectivos dados.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheets01.png">
 </p>
+
 Na sheet **Items**, coloque as colunas **Title**, **Description**, **Tags** e *Screenshot** com seus respectivos dados.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheet02.png">
@@ -44,12 +46,14 @@ Coloque o link da panilha do Google Sheet no local indicado.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheety00.png">
 </p>
+
 E clique no botão **Create Project**.
 <p align="center">
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheety01.png">
 </p>
+
 ### **CodePen***
-Crie um pen e nomeie do jeito que preferir. Adicione o framework <a href="https://tailwindcss.com">Tailwind CSS conforme na configuração CSS do CodePen, ele é usado para criar layouts rápidos.
+Crie um pen e nomeie do jeito que preferir. Adicione o framework <a href="https://tailwindcss.com">Tailwind CSS</a> conforme na configuração CSS do CodePen, ele é usado para criar layouts rápidos.
 ```bash
 https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css
 ```
@@ -70,6 +74,7 @@ Agora copie e cole o <a href="https://github.com/3salles/foxfolio/blob/master/in
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/codepen02.png">
 </p>
 No código JS, coloque o link da sheet **Meta** no código na seguinte parte:
+
 ```js
 axios.get('https://api.sheety.co/4d058b45974651c077d376c5fcf95c9d/portifolio/meta').then(response => (this.meta = response.data.meta[0]))
 ```
@@ -78,6 +83,7 @@ O link você encontra em:
   <img src="https://github.com/3salles/foxfolio/blob/master/assets/sheety02.png">
 </p>
 No código JS, coloque o link da sheet **Items** no código na seguinte parte:
+
 ```js
 axios.get('https://api.sheety.co/4d058b45974651c077d376c5fcf95c9d/portifolio/items').then(response => (this.items = response.data.items))
 ```
